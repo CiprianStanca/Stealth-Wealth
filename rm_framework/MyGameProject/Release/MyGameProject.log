@@ -1,0 +1,11 @@
+﻿Build started 05/05/2017 06:28:41.
+     1>Project "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\MyGameProject\MyGameProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\MyGameProject.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\mygameproject\stdafx.h(20): fatal error C1083: Cannot open include file: 'rm_framework.h': No such file or directory
+     1>Done Building Project "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\MyGameProject\MyGameProject.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.74

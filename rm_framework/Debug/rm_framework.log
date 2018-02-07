@@ -1,0 +1,238 @@
+﻿Build started 05/05/2017 06:26:01.
+     1>Project "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\rm_framework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\/Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\rm_framework.pch" /Fo"C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\\" /Fd"C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\rm_framework.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\include\game.h(11): warning C4091: 'static ': ignored on left of 'eGameState' when no variable is declared
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\/Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\rm_framework.pch" /Fo"C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\\" /Fd"C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\rm_framework.pdb" /Gd /TP /analyze- /errorReport:prompt MovingForwardBehavior.cpp ParticleBehavior.cpp ParticleSystemBehavior.cpp src\AgentBehavior.cpp src\C3DShape.cpp src\Camera.cpp src\CollideDeleteBehavior.cpp src\CollisionManager.cpp src\ColourMaterial.cpp src\ConstantVelocityBehavior.cpp src\CubeCollider.cpp src\DebugLog.cpp src\DestroyedByMissileCollisionResponder.cpp src\ExitMenu.cpp src\FaceCameraBehavior.cpp src\FallUnderGravityBehavior.cpp src\FPSCameraBehavior.cpp src\Game.cpp src\GameObject.cpp src\Graphics.cpp src\GUIButtonBehavior.cpp src\GUIExitButtonBehavior.cpp src\GUIInstructionButtonBehavior.cpp src\GUIPlayButtonBehavior.cpp src\GUITextureRenderable.cpp src\GunRecoilBehaviour.cpp src\IBehavior.cpp src\ICollider.cpp src\ICollisionResponder.cpp src\IComponent.cpp src\IMaterial.cpp src\IMouseListener.cpp src\Input.cpp src\IRenderable.cpp src\LadderCollider.cpp src\LitMaterial.cpp src\MeshRenderable.cpp src\MissileBehavior.cpp src\MissileCheckCollisionBehavior.cpp src\MissileCheckPlayerCollisionBehavior.cpp src\MouseManager.cpp src\Node.cpp src\PlaneCollider.cpp src\PlayerBehavior.cpp src\PlayerSpotted.cpp src\RayBehavior.cpp src\RayRenderable.cpp src\SkyBoxMaterial.cpp src\SkyBoxRenderable.cpp src\SphereCollider.cpp src\SpinBehavior.cpp src\Sprite.cpp src\SpriteSheetAnimationBehavior.cpp src\TagManager.cpp src\TerrainRenderable.cpp src\TextureLoader.cpp src\TimedDeletionBehavior.cpp src\TransparentRenderingManager.cpp src\TurnAfterTimeBehavior.cpp src\UpdateBoundingSphereBehavior.cpp src\Timer.cpp src\Transform.cpp src\Vector.cpp
+         Vector.cpp
+         Transform.cpp
+         Timer.cpp
+         UpdateBoundingSphereBehavior.cpp
+         TurnAfterTimeBehavior.cpp
+         TransparentRenderingManager.cpp
+         TimedDeletionBehavior.cpp
+         TextureLoader.cpp
+         TerrainRenderable.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\terrainrenderable.cpp(15): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         TagManager.cpp
+         SpriteSheetAnimationBehavior.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\spritesheetanimationbehavior.cpp(72): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         Sprite.cpp
+         SpinBehavior.cpp
+         SphereCollider.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\spherecollider.cpp(123): warning C4474: 'sprintf' : too many arguments passed for format string
+         c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\spherecollider.cpp(123): note: placeholders and their parameters expect 2 variadic arguments, but 3 were provided
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\spherecollider.cpp(123): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         SkyBoxRenderable.cpp
+         SkyBoxMaterial.cpp
+         RayRenderable.cpp
+         RayBehavior.cpp
+         PlayerSpotted.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\playerspotted.cpp(51): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         PlayerBehavior.cpp
+         Generating Code...
+         Compiling...
+         PlaneCollider.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(158): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(162): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\planecollider.cpp(165): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         Node.cpp
+         MouseManager.cpp
+         MissileCheckPlayerCollisionBehavior.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\missilecheckplayercollisionbehavior.cpp(48): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         MissileCheckCollisionBehavior.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\missilecheckcollisionbehavior.cpp(37): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         MissileBehavior.cpp
+         MeshRenderable.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\meshrenderable.cpp(43): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\meshrenderable.cpp(44): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\meshrenderable.cpp(45): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\meshrenderable.cpp(47): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\meshrenderable.cpp(48): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\meshrenderable.cpp(49): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\meshrenderable.cpp(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         LitMaterial.cpp
+         LadderCollider.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\laddercollider.cpp(29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\laddercollider.cpp(30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\laddercollider.cpp(31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\laddercollider.cpp(32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\laddercollider.cpp(38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\laddercollider.cpp(39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\laddercollider.cpp(40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\laddercollider.cpp(41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\laddercollider.cpp(46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\laddercollider.cpp(47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\laddercollider.cpp(49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\laddercollider.cpp(50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         IRenderable.cpp
+         Input.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\input.cpp(124): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+         IMouseListener.cpp
+         IMaterial.cpp
+         IComponent.cpp
+         ICollisionResponder.cpp
+         ICollider.cpp
+         IBehavior.cpp
+         GunRecoilBehaviour.cpp
+         GUITextureRenderable.cpp
+         GUIPlayButtonBehavior.cpp
+         Generating Code...
+         Compiling...
+         GUIInstructionButtonBehavior.cpp
+         GUIExitButtonBehavior.cpp
+         GUIButtonBehavior.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\guibuttonbehavior.cpp(24): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\guibuttonbehavior.cpp(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\guibuttonbehavior.cpp(37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\guibuttonbehavior.cpp(39): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\guibuttonbehavior.cpp(40): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+         Graphics.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\graphics.cpp(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\graphics.cpp(105): warning C4101: 'height': unreferenced local variable
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\graphics.cpp(105): warning C4101: 'width': unreferenced local variable
+         GameObject.cpp
+         Game.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\game.cpp(32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+         FPSCameraBehavior.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\fpscamerabehavior.cpp(108): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\fpscamerabehavior.cpp(81): warning C4101: 'sinPitch': unreferenced local variable
+         FallUnderGravityBehavior.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\fallundergravitybehavior.cpp(31): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\fallundergravitybehavior.cpp(43): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         FaceCameraBehavior.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\facecamerabehavior.cpp(29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         ExitMenu.cpp
+         DestroyedByMissileCollisionResponder.cpp
+         DebugLog.cpp
+         CubeCollider.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\cubecollider.cpp(24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\cubecollider.cpp(25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\cubecollider.cpp(26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\cubecollider.cpp(27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\cubecollider.cpp(28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\cubecollider.cpp(29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         ConstantVelocityBehavior.cpp
+         ColourMaterial.cpp
+         CollisionManager.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\collisionmanager.cpp(104): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         CollideDeleteBehavior.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\collidedeletebehavior.cpp(41): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\collidedeletebehavior.cpp(48): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         Camera.cpp
+         C3DShape.cpp
+         AgentBehavior.cpp
+     1>c:\users\larz\documents\rm_framework - cip-final\rm_framework - cip\src\agentbehavior.cpp(19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         ParticleSystemBehavior.cpp
+         ParticleBehavior.cpp
+         MovingForwardBehavior.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\rm_framework.res" rm_framework.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\rm_framework.lib" /NOLOGO "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\rm_framework.res"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\MovingForwardBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\ParticleBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\ParticleSystemBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\AgentBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\C3DShape.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\Camera.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\CollideDeleteBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\CollisionManager.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\ColourMaterial.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\ConstantVelocityBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\CubeCollider.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\DebugLog.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\DestroyedByMissileCollisionResponder.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\ExitMenu.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\FaceCameraBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\FallUnderGravityBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\FPSCameraBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\Game.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\GameObject.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\Graphics.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\GUIButtonBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\GUIExitButtonBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\GUIInstructionButtonBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\GUIPlayButtonBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\GUITextureRenderable.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\GunRecoilBehaviour.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\IBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\ICollider.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\ICollisionResponder.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\IComponent.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\IMaterial.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\IMouseListener.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\Input.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\IRenderable.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\LadderCollider.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\LitMaterial.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\MeshRenderable.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\MissileBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\MissileCheckCollisionBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\MissileCheckPlayerCollisionBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\MouseManager.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\Node.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\PlaneCollider.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\PlayerBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\PlayerSpotted.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\RayBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\RayRenderable.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\SkyBoxMaterial.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\SkyBoxRenderable.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\SphereCollider.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\SpinBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\Sprite.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\SpriteSheetAnimationBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\TagManager.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\TerrainRenderable.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\TextureLoader.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\TimedDeletionBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\TransparentRenderingManager.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\TurnAfterTimeBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\UpdateBoundingSphereBehavior.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\stdafx.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\Timer.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\Transform.obj"
+         "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\Vector.obj"
+         FreeImage.lib
+     1>LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+         rm_framework.vcxproj -> C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Debug\rm_framework.lib
+     1>Done Building Project "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\rm_framework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.83

@@ -1,0 +1,20 @@
+﻿Build started 04/05/2017 22:15:25.
+     1>Project "D:\rm_framework - Cip\rm_framework_tests\rm_framework_tests.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\rm_framework_tests.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\rm_framework - cip\include\game.h(8): warning C4091: 'static ': ignored on left of 'eGameState' when no variable is declared
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\rm_framework_tests.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /FC /errorReport:prompt VectorTests.cpp
+         VectorTests.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\rm_framework - Cip\Debug\rm_framework_tests.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\rm_framework - Cip\Debug\rm_framework_tests.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\rm_framework - Cip\Debug\rm_framework_tests.lib" /MACHINE:X86 /DLL Debug\stdafx.obj
+         Debug\VectorTests.obj
+         "D:\rm_framework - Cip\Debug\rm_framework.lib"
+            Creating library D:\rm_framework - Cip\Debug\rm_framework_tests.lib and object D:\rm_framework - Cip\Debug\rm_framework_tests.exp
+     1>rm_framework.lib(LadderCollider.obj) : error LNK2001: unresolved external symbol "class CGame * g_pGame" (?g_pGame@@3PAVCGame@@A)
+     1>D:\rm_framework - Cip\Debug\rm_framework_tests.dll : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "D:\rm_framework - Cip\rm_framework_tests\rm_framework_tests.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.44

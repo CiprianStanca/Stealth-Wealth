@@ -1,0 +1,75 @@
+﻿Build started 05/05/2017 06:28:41.
+     1>Project "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\rm_framework.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Release\rm_framework.exe" /INCREMENTAL:NO /NOLOGO dinput8.lib dxguid.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Release\rm_framework.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\Release\rm_framework.lib" /MACHINE:X86 /SAFESEH Release\rm_framework.res
+         Release\MovingForwardBehavior.obj
+         Release\ParticleBehavior.obj
+         Release\ParticleSystemBehavior.obj
+         Release\AgentBehavior.obj
+         Release\C3DShape.obj
+         Release\Camera.obj
+         Release\CollideDeleteBehavior.obj
+         Release\CollisionManager.obj
+         Release\ColourMaterial.obj
+         Release\ConstantVelocityBehavior.obj
+         Release\CubeCollider.obj
+         Release\DebugLog.obj
+         Release\DestroyedByMissileCollisionResponder.obj
+         Release\ExitMenu.obj
+         Release\FaceCameraBehavior.obj
+         Release\FallUnderGravityBehavior.obj
+         Release\FPSCameraBehavior.obj
+         Release\Game.obj
+         Release\GameObject.obj
+         Release\Graphics.obj
+         Release\GUIButtonBehavior.obj
+         Release\GUIExitButtonBehavior.obj
+         Release\GUIInstructionButtonBehavior.obj
+         Release\GUIPlayButtonBehavior.obj
+         Release\GUITextureRenderable.obj
+         Release\GunRecoilBehaviour.obj
+         Release\IBehavior.obj
+         Release\ICollider.obj
+         Release\ICollisionResponder.obj
+         Release\IComponent.obj
+         Release\IMaterial.obj
+         Release\IMouseListener.obj
+         Release\Input.obj
+         Release\IRenderable.obj
+         Release\LadderCollider.obj
+         Release\LitMaterial.obj
+         Release\MeshRenderable.obj
+         Release\MissileBehavior.obj
+         Release\MissileCheckCollisionBehavior.obj
+         Release\MissileCheckPlayerCollisionBehavior.obj
+         Release\MouseManager.obj
+         Release\Node.obj
+         Release\PlaneCollider.obj
+         Release\PlayerBehavior.obj
+         Release\PlayerSpotted.obj
+         Release\RayBehavior.obj
+         Release\RayRenderable.obj
+         Release\SkyBoxMaterial.obj
+         Release\SkyBoxRenderable.obj
+         Release\SphereCollider.obj
+         Release\SpinBehavior.obj
+         Release\Sprite.obj
+         Release\SpriteSheetAnimationBehavior.obj
+         Release\TagManager.obj
+         Release\TerrainRenderable.obj
+         Release\TextureLoader.obj
+         Release\TimedDeletionBehavior.obj
+         Release\TransparentRenderingManager.obj
+         Release\TurnAfterTimeBehavior.obj
+         Release\UpdateBoundingSphereBehavior.obj
+         Release\stdafx.obj
+         Release\Timer.obj
+         Release\Transform.obj
+         Release\Vector.obj
+         FreeImage.lib
+     1>LINK : fatal error LNK1104: cannot open file 'rm_framework.lib'
+     1>Done Building Project "C:\Users\larz\Documents\rm_framework - Cip-final\rm_framework - Cip\rm_framework.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.60
